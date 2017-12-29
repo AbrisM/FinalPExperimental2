@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Party Bashers!</title>
+	<h1 align="center"> 
+	<a href="BirthdayIndex.html"><img src="Banner.png" alt="Welcome to Party Bash!"/></a>
+	</h1>
+	 <!--Referring to css style sheet-->
+	<link rel="stylesheet" type="text/css" href="cssfile.css" />
+</head>
+
+<body>
+<header id="header">
+<div class="innertube">
+<h1><marquee behavior ="scroll" direction="right"> Purchase here!</marquee></h1>
+</div>
+</header>
+<!--adding video-->
+<video autoplay loop id="vbackground" muted plays-inline>
+<source src="blurries.mp4" type="video/mp4">
+</video>
+<!--creating section for E-commerce content-->
+ <main>
+<div id="content">
+<div class="innertube">
+<span class='blink'><h1 align="center">E-Commerce</h1></span>
+<p>
+<ul id="wrapper"> <!--listing of 10 items below-->
+<table>
+<tr id="tabledisplay">
+<!--creating display output for table data and setting total amount-->
+<center><td>10</td></center>
+<center><td>10</td></center>
+<center><td>10</td></center>
+<center><td>10</td></center>
+<center><td>10</td></center>
+</tr>
+<tr>
+<td>
+<img src="bcup.png" alt="Cups"/>
+</td>
+<td>
+<img src="cupcakeholders.png" alt= "CupCakes"/>
+            </td>
+            <td>
+<img src="HPlate.png" alt="Plates"/>
+            </td>
+            <td>
+ <img src="Partyb.png" alt="PartyBox"/>
+            </td>
+            <td>
+<img src="partyballoon.png" alt="Balloon"/>
+            </td>
+        </tr>
+        <tr>
+        <td>
+ <button onclick="purchaseFunction(0)" class="button"><li>$11.50</li></button>
+            </td>
+            <td>
+<button onclick="purchaseFunction(1)" class="button"><li>$9.00</li></button>
+            </td>
+            <td>
+<button onclick="purchaseFunction(2)" class="button"><li>$14.00</li></button>
+            </td>
+            <td>
+<button onclick="purchaseFunction(3)"class="button"><li>$9.50</li></button>
+            </td>
+            <td>
+<button onclick="purchaseFunction(4)"class="button"><li>$12.00</li></button>
+        </tr>
+		       </table>
+             </p>
+            </div>
+            </div>
+           </main>
+       <nav id="nav">
+      <div class="innertube">
+	      <h3>Main Page</h3>
+              <ul>
+ <li><a href="BirthdayIndex.html">Main</a></li>
+        </ul>
+        <h3>Location</h3>
+        <ul>
+ <li><a href="Location.html">Geographical</a></li>
+        </ul>
+        <h3>Gallery</h3>
+        <ul>
+<li><a href="Gallery.html">Canvas</a></li>
+              </ul>
+		<h3>Store Hours</h3>
+		  <ul>
+		  <li> Mon-Thursday 11A.M.-10P.M.<br> Friday 10A.M.-9P.M.</li>
+        </ul>
+              </div>
+              </div>
+              </nav>
+  <center><p style="font-family:Comic Sans MS;"> Purchase our wares while supplies last! </p></center>
+			<footer id="footer">
+			<div class="innertube">
+			<p>Copyright April</p>
+              </div>
+             </footer>
+		<script src="ecommerce.js"></script>
+             </body>
+             </html>

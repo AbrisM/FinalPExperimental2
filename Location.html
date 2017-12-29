@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Party Bashers!</title>
+  <h1 align="center"> 
+		<a href="BirthdayIndex.html"><img src="Banner.png" alt=
+		"Welcome to Party Bash!"/>
+		</a>
+		</h1>
+  <!--Referring to css style sheet-->
+  <link rel="stylesheet" type="text/css" href="cssfile.css" />
+</head>
+<body>
+<!-- heading container-->
+  <header id="header">
+    <div class="innertube">
+      <h1><marquee behavior ="scroll" direction="right">Find That Store!</marquee></h1>
+    </div>
+  </header>
+  <!--Video Content-->
+ <video autoplay loop id="vbackground" muted plays-inline>
+<source src="tinyletters.mp4" type="video/mp4">
+</video>
+  <div id="wrapper">
+    <main>
+      <div id="content">
+        <div class="innertube">
+          <span class='blink'><h1 align="center">Geographical</h1></span>
+		  <br>
+		  <!--Changing the picture-->
+		  <center><img class="images2" id="changeme" onmouseover="changeimage()" src="Connecticut.png" alt= "Nutmeg State"/><center>
+		  <!--adding in the form for the state look up-->
+		  <form id="countylookup"> <!--max length of 5. Adding townlookup for IDs -->
+<center><label>Find Us in Your CT County!</label><input type = "text" id = "firstInput" maxlength="5"></center>
+                                    <br>
+<center><label for="output">County Result</label><input type = "text" id = "secondInput" maxlength="0"></center> <!--Max length 0 to prevent typing-->
+</form>
+                                     <br>	
+<center><button id = "lib-button" onclick="countyresult()">Search Now</button></center><!--state result click button-->
+          <center><p style="font-family:Comic Sans MS;">
+		  Find Our Stores Located across Fairfield and Hartford County!! Click "Search now" for results!
+		  <br>We are located in West Hartford, Bridgeport, Norwalk, and Stamford stores!</p>
+		  <br>
+		  <p style="font-family:Comic Sans MS;">E-mail:</p>
+         <a href="mailto:contact Party Bashers">contact@ThePartyIsOn.com</a>
+         <p style="font-family:Comic Sans MS;">Phone: 860-000-0000</p>
+	<p style="font-family:Comic Sans MS;"><br>Got a Question? Send it through!<br></p>
+	<p style="font-family:Comic Sans MS;">P.O. Box 59044-2CR<br> Windsor, Connecticut 06095</p>
+          <center></p>
+        </div>
+      </div>
+    </main>
+	
+<nav id="nav">
+      <div class="innertube">
+	  <h3>Main Page</h3>
+        <ul>
+          <li><a href="BirthdayIndex.html">Main</a></li>
+        </ul>
+        <h3>Shopping</h3>
+        <ul>
+          <li><a href="Shopping.html">E-Commerce</a></li>
+        </ul>
+        <h3>Gallery</h3>
+        <ul>
+          <li><a href="Gallery.html">Canvas</a></li>
+        </ul>
+		<h3>Store Hours</h3>
+		  <ul>
+		  <li> Mon-Thursday 11A.M.-10P.M.<br> Friday 10A.M.-9P.M.</li>
+        </ul>
+      </div>
+  </div>
+</nav>
+
+  <footer id="footer">
+    <div class="innertube">
+      <p>Copyright April</p>
+    </div>
+  </footer>
+<script src="ecommerce.js"></script>
+</body>
+
+</html>
